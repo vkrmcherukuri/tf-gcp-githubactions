@@ -6,7 +6,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket = "round-bounty-363611-tfstate"
+    bucket = "gcsvcherukuri"
     prefix = "terraform/state"
   }
 }
